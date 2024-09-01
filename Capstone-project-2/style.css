@@ -1,0 +1,119 @@
+body{
+    text-align: center;
+    font-family: "Merriweather", sans-serif;
+    margin: 0;
+}
+
+div{
+    display: block;
+}
+
+.top{
+    position: relative;
+    background-color: #e4f9f5;
+    padding-top: 100px;
+
+}
+
+h1{
+    color: #66bfbf;
+    font-size: 5.65rem;
+    font-family: "Sacramento", cursive;
+}
+span{
+    text-decoration: underline;
+}
+h2{
+    color: #66bfbf;
+    font-size: 2.32rem;
+    padding-bottom: 10px;
+    margin: auto;
+    font-weight: normal;
+}
+
+.cloud1{
+    position: absolute;
+    right: 300px;
+    top: 70px;
+}
+
+.cloud2{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.DP{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+p{
+    line-height: 2;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.profile{
+    margin-top: 100px;
+}
+.skill{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: auto;
+    text-align:left;
+}
+.skill p{
+    width: 100%;
+    margin: 0;
+}
+h3{
+    color: #488f8f;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+hr{
+    border: dotted aliceblue 6px;
+    width: 4%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+.resume{
+    background-color: #66bfbf;
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: lighter;
+    border-radius: 8px;
+    padding: 5px 5px;
+    background-image: linear-gradient(to bottom #66bfbf  #e4f9f5);
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #11cdd4;
+    color: #ffffff;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    padding: 10px 20px 10px 20px;
+    margin: 10px 20px; 
+    font-size: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.bottom{
+    background-color: #66bfbf;
+    padding: 50px 0px 20px;
+    margin-top: 50px;
+}
+a{
+    color:#11999e;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.bottom p{
+    color: #ffffff;
+}
